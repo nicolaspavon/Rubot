@@ -26,12 +26,15 @@ flyer_robot_1.buy!(person_1)
 humanoid_robot_1.buy!(person_2)
 flyer_robot_2.buy!(person_1)
 
-# puts "\n\nMostrando info de los robots..."
-# flyer_robot_1.show_info
-# puts '---'
-# humanoid_robot_1.show_info
-# puts '---'
-# miner_robot_1.show_info
-# puts '---'
-# flyer_robot_2.show_info
-# puts '---'
+
+
+
+puts "\n\nMostrando info de los robots..."
+flyer_robot_1.show_info
+puts '---'
+humanoid_robot_1.show_info
+puts '---'
+miner_robot_1.show_info
+puts '---'
+flyer_robot_2.show_info
+puts '---'
