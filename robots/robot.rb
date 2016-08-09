@@ -9,8 +9,7 @@ class Robot
     @@botsbuilt += 1
     @number = Random.rand(100000...1000000)
     @state = "Built"
-    @colourArray = ["Red", "Blue", "Yellow"]
-    @paint = @colourArray.shuffle.sample if @name.include? "Flyer"
+
 
 
   end
